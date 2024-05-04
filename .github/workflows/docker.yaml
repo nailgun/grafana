@@ -1,0 +1,9 @@
+name: Docker
+
+on:
+  push:
+    branches: [ build ]
+
+jobs:
+  build:
+    uses: smpio/github-workflows/.github/workflows/docker.yaml@master
